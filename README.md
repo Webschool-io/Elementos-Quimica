@@ -323,3 +323,32 @@ Obviamente teremos uma API para fornecer TODA a informação sobre os elementos 
 - /api/👤/💎
 - /api/molecules/💎
 - /api/👥/💎
+
+
+
+## Moléculas
+
+### Tipos
+
+- Ácidos
+- Bases
+- Sais 
+- Oxidos
+
+### Propriedades
+
+
+- NOME IUPAC
+- NOME USUAL
+- ESTADO DA COMPOSTO
+- FORMA IÔNICA
+- PROPRIEDADES FISICO-QUIMICAS:
+- Afinidade (tanto pelos atomos quanto pelo tipo da molecula)
+- Solubilidade (Kps)
+- Quantidade de materia (mol/L)
+- Geometria molecular
+- Estado de oxidação do atomo presente na molecula
+- Ponto de fusao
+- Ponto de ebulição
+- Valor da energia Livre de Gibs (deltah)
+- Valor da energia de entalpia
