@@ -1,0 +1,20 @@
+{
+  "name": "atom-Ge",
+  "version": "1.0.0",
+  "description": "Behold the Germanium!",
+  "main": "atom-ge.js",
+  "dependencies": {
+    "property-eletronegatividade-de-pauling-h": "^1.0.1",
+    "property-estrutura-cristalina-si": "^1.0.0",
+    "property-estado-oxidacao-ge": "^1.0.1",
+    "unity-kjXmol-1": "^1.0.2",
+    "unity-pm": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

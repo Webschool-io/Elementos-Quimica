@@ -1,6 +1,6 @@
 module.exports = { 
-  simbolo: 'Si', 
-  nome: 'Silicon',
+  simbolo: 'Ge', 
+  nome: 'Germânio',
   familia: [
     {
       coluna: '14'
@@ -12,11 +12,11 @@ module.exports = {
       descritivo: 'No Family'
     }
   ], 
-  periodo: 3, 
+  periodo: 4, 
   numero: {
-    eletrons: 14,
+    eletrons: 32,
     neutrons: 0,
-    protons: 14
+    protons: 32
   },
   distribuicaoEletronica: {
     k: {
@@ -28,12 +28,12 @@ module.exports = {
     },
     m: {
       s: 2,
-      p: 2,
-      d: 0
+      p: 6,
+      d: 10
     },
     n: {
-      s: 0,
-      p: 0,
+      s: 2,
+      p: 2,
       d: 0,
       f: 0
     },
@@ -56,43 +56,43 @@ module.exports = {
   propriedades: {
     fisicas: {
       densidade: {
-        valor: 2330, 
+        valor: 5323, 
         unidade: 'kg/m3'
       },
       estadodaMateria: {   
         valor: 'Solid' 
       },
       raioAtomico: {
-        valor: 111, 
+        valor: 122, 
         unidade: 'pm'
       },
       massaAtomica: {
-        valor: 28.0855, 
+        valor: 72.64, 
         unidade: 'u'
       }
     },
     quimicas: {
-      estadoOxidacao: require('property-estado-oxidacao-si'),
+      estadoOxidacao: require('property-estado-oxidacao-ge'),
       estruturaCristalina: require('property-estrutura-cristalina-si'),
       eletronegatividadePauling: require('property-eletronegatividade-de-pauling-h'),
       raioCovalente: {   
-        valor: 111, 
+        valor: 122, 
         unidade: require('unity-pm').unidade
       },
       raioVanderWaals: {   
-        valor: 210, 
+        valor: 211, 
         unidade: require('unity-pm').unidade
       },
       entalpiadevaporizacao: {   
-        valor: 384.22 , 
+        valor: 334, 
         unidade: require('unity-kjXmol-1').unidade
       },
       calorEspecífico: {   
-        valor: 700, 
+        valor: 320, 
         unidade: 'J/(kg·K)'
       },
       condutividadeTermica: {
-        valor: 148,
+        valor: 59.9,
         unidade: 'W/(m·K)'
       } 
     }
