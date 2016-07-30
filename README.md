@@ -24,7 +24,9 @@ Aí eu lhe pergunto:
 > **Se você entrar em uma Tabela Periódica o que você fará? Não irá buscar alguma propriedade de algum elemento que você pode até não conhecer?**
 
 
+
 > Correto.
+
 
 
 > **Agora imagine um Sistema Web onde você pudesse ter todas as informações de um elemento tanto no navegador, como no celular, como no sistema operacional.**
@@ -33,15 +35,24 @@ Aí eu lhe pergunto:
 
 > **Não seria muito melhor?**
 
+
+
 > É...
+
+
+
 
 > **E se você além de ter todas as informações dos elementos e suas moléculas ainda pudesse ter uma calculadora tipo HP, porém específica para Química?**
 
 > ?**Quanto você pagaria para ter TODA essa informação??**
 
+
 > Nada.
 
+
+
 > **Que bom! Pois esse é o valor que custará**.
+
 
 ## Separação dos Elementos
 
