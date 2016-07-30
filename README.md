@@ -21,7 +21,7 @@ Nossa ideia é atualizar **e melhorar** a Tabela Periódica, pois não precisamo
 
 Aí eu lhe pergunto:
 
-> **Se você entrar em uma Tabela Periódica o que você fará? Não irá buscar alguma propriedade de algum elemento que você pode até não conhecer?**
+> Se você entrar em uma Tabela Periódica o que você fará? Não irá buscar alguma propriedade de algum elemento que você pode até não conhecer?
 
 
 
@@ -29,11 +29,11 @@ Correto.
 
 
 
-> **Agora imagine um Sistema Web onde você pudesse ter todas as informações de um elemento tanto no navegador, como no celular, como no sistema operacional.**
+> Agora imagine um Sistema Web onde você pudesse ter todas as informações de um elemento tanto no navegador, como no celular, como no sistema operacional.
 
-> **E que TODA informação fosse atualizada e criada pela comunidade de químicos?**
+> E que TODA informação fosse atualizada e criada pela comunidade de químicos?
 
-> **Não seria muito melhor?**
+> Não seria muito melhor?
 
 
 
@@ -42,16 +42,15 @@ Correto.
 
 
 
-> **E se você além de ter todas as informações dos elementos e suas moléculas ainda pudesse ter uma calculadora tipo HP, porém específica para Química?**
+> E se você além de ter todas as informações dos elementos e suas moléculas ainda pudesse ter uma calculadora tipo HP, porém específica para Química?
 
-> ?**Quanto você pagaria para ter TODA essa informação??**
-
-
-Nada.
+> Quanto você pagaria para ter TODA essa informação??
 
 
+Pois eu mesmo lhe responderei:
 
-> **Que bom! Pois esse é o valor que custará**.
+
+> Nada.
 
 
 ## Separação dos Elementos
