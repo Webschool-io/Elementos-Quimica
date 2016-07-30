@@ -242,6 +242,62 @@ module.exports = {
 
 ### Unidades
 
+Seguindo a lógica também modularizamos as **unidades** pois poderão ser reusadas.
+
+O padrão, por hora, é:
+
+```js
+module.exports = {
+  unidade: String,
+  nome: String,
+  validate: Function
+  descricao: String
+}
+```
+
+Exemplos:
+
+```js
+// K
+module.exports = {
+  unidade: 'K',
+  nome: 'Kelvin',
+  validate: (value) => true,
+  descricao: 'Mede a temperatura absoluta'
+}
+```
+
+```js
+// a
+module.exports = {
+  unidade: 'a',
+  nome: 'anos',
+  validate: (value) => (value > 0),
+  descricao: 'Picometro é bem pequeno'
+}
+```
+
+```js
+// Pa
+module.exports = {
+  unidade: 'Pa',
+  nome: 'Pascal',
+  validate: (value) => true,
+  descricao: 'Mede a pressão'
+}
+```
+
+```js
+// pm
+module.exports = {
+  unidade: 'pm',
+  nome: 'picômetro',
+  valor: Math.pow(10, -6), // relativo ao metro
+  validate: (value) => !isNaN(value),
+  descricao: 'Picometro é bem pequeno'
+}
+```
+
 ## API
 
 Obviamente teremos uma API para fornecer TODA a informação sobre os elementos e moléculas da Química.
