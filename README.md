@@ -194,6 +194,8 @@ Isso é porque já comecei a modularizar cada PROPRIEDADE para criar um módulo 
 
 Sim iremos ATOMIZAR cada propriedade para facilitar o reuso.
 
+**SEMPRE PRECISA TER `valor`!** Pois é uma propriedade, isso é o **mínimo**.
+
 O padrão, por hora, é:
 
 ```js
@@ -215,7 +217,7 @@ module.exports = {
 }
 ```
 
-*ps: Ainda não tem descrição.*
+*ps: Sem descrição.*
 
 ```js
 // H-estadoOxidacao
@@ -226,14 +228,17 @@ module.exports = {
 }
 ```
 
+*ps: Sem descrição e unidade.*
+
 ```js
-// H-estruturaCristalina
 module.exports = {   
-  valor: 'hexagonal', 
-  unidade: null,
+  valor: 12.3, 
+  unidade: require('unity-a').unidade,
   descricao: null
 }
 ```
+
+*ps: Sem descrição porém importando a **unidade**.*
 
 ### Unidades
 
