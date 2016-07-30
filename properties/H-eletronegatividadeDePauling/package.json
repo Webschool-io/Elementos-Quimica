@@ -1,0 +1,14 @@
+{
+  "name": "property-eletronegatividade-de-pauling-h",
+  "version": "1.0.1",
+  "description": "Propriedade quimica marota",
+  "main": "property.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suissa",
+  "license": "WTFPL",
+  "dependencies": {
+    "unity-a": "^1.0.0"
+  }
+}

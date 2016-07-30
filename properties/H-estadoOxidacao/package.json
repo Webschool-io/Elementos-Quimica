@@ -1,0 +1,14 @@
+{
+  "name": "property-estado-oxidacao-h",
+  "version": "1.0.1",
+  "description": "Propriedade quimica do estado de oxidação do Hidrogênio",
+  "main": "property.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suissa",
+  "license": "WTFPL",
+  "dependencies": {
+    "unity-a": "^1.0.0"
+  }
+}
