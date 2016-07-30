@@ -194,6 +194,16 @@ Isso é porque já comecei a modularizar cada PROPRIEDADE para criar um módulo 
 
 Sim iremos ATOMIZAR cada propriedade para facilitar o reuso.
 
+O padrão, por hora, é:
+
+```js
+module.exports = {    
+  valor: Any, // String or Number
+  unidade: String,
+  descricao: String, // default null
+}
+```
+
 Vejamos alguns exemplos:
 
 ```js
