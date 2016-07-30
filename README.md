@@ -254,7 +254,7 @@ Essas são as propriedades dos **metais**:
 - momento magnético 
 - radiação eletromagnética
 - emissão espontânea 
-- Ligantes.
+- Ligantes
 - permeabilidade magnética
 - Susceptibilidade magnética 
 - Campo magnético
@@ -271,13 +271,13 @@ Essas são as propriedades dos **metais**:
 
 Seguindo a lógica também modularizamos as **unidades** pois poderão ser reusadas.
 
-O padrão, por hora, é:
+O padrão é:
 
 ```js
 module.exports = {
   unidade: String,
   nome: String,
-  validate: Function
+  validate: Function,
   descricao: String
 }
 ```
