@@ -25,7 +25,7 @@ Aí eu lhe pergunto:
 
 
 
-> Correto.
+Correto.
 
 
 
@@ -37,7 +37,7 @@ Aí eu lhe pergunto:
 
 
 
-> É...
+É...
 
 
 
@@ -47,7 +47,7 @@ Aí eu lhe pergunto:
 > ?**Quanto você pagaria para ter TODA essa informação??**
 
 
-> Nada.
+Nada.
 
 
 
