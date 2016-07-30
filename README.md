@@ -34,7 +34,11 @@ Logo após temos a seguinte separação:
 
 Precisamos criar um padrão, *work in progress*, para que futuramente possa ser utilizada em qualquer linguagem.
 
-Por isso eu e a [Franciele](https://github.com/fpchemical/) pensamos em colocar boa parte das propriedades dos elementos no JSON, vejaos esse exemplo do Hidrogênio:
+Por isso eu e a [Franciele](https://github.com/fpchemical/) pensamos em colocar boa parte das propriedades dos elementos no JSON.
+
+### Elemento
+
+Vejamos esse exemplo do Hidrogênio:
 
 ```js
 module.exports = { 
@@ -178,12 +182,13 @@ Aposto que percebeu essa parte diferente:
 
 
 ```js
-
-      meiaVida: require('property-meiavida-h'),
-      estadoOxidacao: require('property-estado-oxidacao-h'),
-      estruturaCristalina: require('property-estrutura-cristalina-h'),
-      eletronegatividadePauling: require('property-eletronegatividade-de-pauling-h'),
+meiaVida: require('property-meiavida-h'),
+estadoOxidacao: require('property-estado-oxidacao-h'),
+estruturaCristalina: require('property-estrutura-cristalina-h'),
+eletronegatividadePauling: require('property-eletronegatividade-de-pauling-h'),
 ```
+
+Isso é porque 
 
 ## API
 
