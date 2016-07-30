@@ -188,7 +188,11 @@ estruturaCristalina: require('property-estrutura-cristalina-h'),
 eletronegatividadePauling: require('property-eletronegatividade-de-pauling-h'),
 ```
 
-Isso é porque 
+Isso é porque já comecei a modularizar cada PROPRIEDADE para criar um módulo que será um GERADOR de propriedades para facilitar a criação dos outros elementos.
+
+### Propriedades
+
+### Unidades
 
 ## API
 
