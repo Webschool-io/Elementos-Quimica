@@ -1,10 +1,46 @@
-# elementos-da-quimica
+# Elementos da Química
+
 Repositório com todos os elementos da Química e suas propriedades.
 
 ## Ideia
 
 Mostrar os elementos da Química de forma m ais simples e usável do que a Tabela Periódica.
 
+Nossa "tabela periódica" será, inicialmente, visualizada com os elementos separados em 3 categorias:
+
+- Gasoso 💨
+- Líquido💧
+- Sólido 💎
+
+
+Vai dizer que não fica mais simples pensar assim?
+
+Nossa ideia é atualizar **e melhorar** a Tabela Periódica, pois não precisamos mais, necessariamente, utilizar ela como foi criada.
+
+> Por quê?
+
+Aí eu lhe pergunto:
+
+> Se você entrar em uma Tabela Periódica o que você fará?
+
+> **Não irá buscar **alguma propriedade** de algum elemento que você pode até não conhecer?**
+
+> Correto.
+
+> **Agora imagine um Sistema Web onde você pudesse ter **todas as informações de um elemento** tanto no navegador, como no celular, como no sistema operacional.**
+> **E que **toda** informação fosse atualizada e criada pela comunidade de químicos?**
+> **Não seria muito melhor?**
+
+
+> É...
+
+> **E se você além de ter todas as informações dos elementos e suas moléculas ainda pudsse ter uma calculadora tipo HP porém específica para Química?**
+
+> Quanto você pagaria para ter **TODA** essa informação?
+
+> Nada.
+
+> **Que bom! Pois esse é o valor que custará**.
 
 ## Separação dos Elementos
 
@@ -14,8 +50,6 @@ Para facilitar o entendimento dos elementos da Química separamos os elementos, 
 - Líquido💧
 - Sólido 💎
 
-
-Vai dizer que não fica mais simples pensar assim?
 
 Logo após temos a seguinte separação:
 
