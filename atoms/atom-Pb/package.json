@@ -1,0 +1,20 @@
+{
+  "name": "atom-Pb",
+  "version": "1.0.0",
+  "description": "Behold the Lead!",
+  "main": "atom-sn.js",
+  "dependencies": {
+    "property-eletronegatividade-de-pauling-pb": "^0.0.1",
+    "property-estado-oxidacao-pb": "^0.0.1",
+    "property-estrutura-cristalina-pb": "^0.0.1",
+    "unity-kjXmol-1": "^1.0.2",
+    "unity-pm": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
