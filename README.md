@@ -302,6 +302,8 @@ module.exports = {
 
 Obviamente teremos uma API para fornecer TODA a informação sobre os elementos e moléculas da Química.
 
+Pensamos em facilitar a identificação dos elementos além do nome da sua categoria e tipo, trocarmos por **emojis** já existentes em qualquer celular.
+
 **Gasoso**: 💨
 - /api/atoms/gaseous
 - /api/atoms/💨
