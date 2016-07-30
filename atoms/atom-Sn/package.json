@@ -1,6 +1,6 @@
 {
   "name": "atom-Sn",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Behold the Tin!",
   "main": "atom-sn.js",
   "dependencies": {
@@ -15,6 +15,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "gkal19",
   "license": "ISC"
 }

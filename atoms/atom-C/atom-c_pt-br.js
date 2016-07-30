@@ -90,9 +90,9 @@ module.exports = {
       }
     ],
     quimicas: [ 
-      require('property-estado-oxidacao-h'),
-      require('property-estrutura-cristalina-h'),
-      require('property-eletronegatividade-de-pauling-h'),
+      require('property-estado-oxidacao-c'),
+      require('property-estrutura-cristalina-c'),
+      require('property-eletronegatividade-de-pauling-c'),
       {   
         nome: 'raioCovalente',
         valor: 77,

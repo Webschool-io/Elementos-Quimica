@@ -96,7 +96,7 @@ module.exports = {
     quimicas: [ 
       require('property-estado-oxidacao-si'),
       require('property-estrutura-cristalina-si'),
-      require('property-eletronegatividade-de-pauling-h'),
+      require('property-eletronegatividade-de-pauling-si'),
       {   
         nome: 'raioCovalente',
         valor: 111,

@@ -7,113 +7,132 @@ In this *atomic* module we have a lot of data about the C.
 ## Structure
 
 ```js
-
 module.exports = { 
   simbolo: 'C', 
-  nome: 'carbono',
+  nome: {
+    'pt-br': 'Carbono',
+    'en': 'Carbon',
+  },
   familia: [
     {
-      coluna: '16'
+      tipo: 'Coluna',
+      valor: '14'
     }, 
     {
-      grupo: '4A'
+      tipo: 'Grupo',
+      valor: '4A'
     }, 
     {
-      descritivo: 'sem familia'
+      tipo: 'descritivo',
+      valor: 'Sem familia'
     }
-  ], 
+  ],
   periodo: 2, 
+  massaAtomica: 12.0107,
   numero: {
     eletrons: 6,
     neutrons: 6,
     protons: 6
   },
   distribuicaoEletronica: {
-    k: {
-      s: 2
-    },
-    l: {
-      s: 2,
-      p: 2
-    },
-    m: {
-      s: 0,
-      p: 0,
-      d: 0
-    },
-    n: {
-      s: 0,
-      p: 0,
-      d: 0,
-      f: 0
-    },
-    o: {
-      s: 0,
-      p: 0,
-      d: 0,
-      f: 0
-    },
-    p: {
-      s: 0,
-      p: 0,
-      d: 0
-    },
-    q: {
-      s: 0,
-      p: 0
-    }
+    k: [
+      {
+        subnivel: 's',
+        eletrons: 2
+      }
+    ],
+    l: [
+      {
+        subnivel: 's',
+        eletrons: 2
+      },
+      {
+        subnivel: 'p',
+        eletrons: 2
+      }
+    ],
+    m: [
+      {
+        subnivel: 's',
+        eletrons: 0
+      }
+    ],
+    n: [
+      {
+        subnivel: 's',
+        eletrons: 0
+      }
+    ],
+    o: [
+      {
+        subnivel: 's',
+        eletrons: 0
+      }
+    ],
+    p: [
+      {
+        subnivel: 's',
+        eletrons: 0
+      }
+    ],
+    q: [
+      {
+        subnivel: 's',
+        eletrons: 0
+      }
+    ],
   },
   propriedades: {
-    fisicas: {
-      densidade: {
-        valor: 0.2267, 
+    fisicas: [
+      {   
+        nome: 'Densidade',
+        valor: 0.2267,
         unidade: 'kg/m3'
       },
-      estadodaMateria: {   
-        valor: 'solido' 
+      {   
+        nome: 'estadodaMateria',
+        valor: 'Sólido' 
       },
-      raioAtomico: {
-        valor: 70, 
-        unidade: 'pm'
-      },
-      massaAtomica: {
-        valor: 12.0107, 
-        unidade: 'u'
+      {   
+        nome: 'raioAtomico',
+        valor: 70,
       }
-    },
-    quimicas: {
-      estadoOxidacao: require('property-estado-oxidacao-h'),
-      estruturaCristalina: require('property-estrutura-cristalina-h'),
-      eletronegatividadePauling: require('property-eletronegatividade-de-pauling-h'),
-      raioCovalente: {   
-        valor: 77, 
+    ],
+    quimicas: [ 
+      require('property-estado-oxidacao-c'),
+      require('property-estrutura-cristalina-c'),
+      require('property-eletronegatividade-de-pauling-c'),
+      {   
+        nome: 'raioCovalente',
+        valor: 77,
         unidade: require('unity-pm').unidade
       },
-      raioVanderWaals: {   
+      {   
+        nome: 'raioVanderWaals',
         valor: 170, 
         unidade: require('unity-pm').unidade
       },
-      entalpiadevaporizacao: {   
-        valor: 0.44936, 
+      {   
+        nome: 'entalpiadevaporizacao',
+        valor: 0.44936,
         unidade: require('unity-kjXmol-1').unidade
       },
-      volumeMolar: {   
-        valor: 0.0000114, 
-        unidade: require('unity-kjXmol-1').unidade
-      },
-      calorEspecífico: {   
+      {   
+        nome: 'calorEspecífico',
         valor: 710, 
         unidade: 'J/(kg·K)'
       },
-      condutividadeEletrica: {   
+      {   
+        nome: 'condutividadeEletrica',
         valor: 0.061, 
         unidade: 'S/m'
       },
-      condutividadeTermica: {
+      {
+        nome: 'condutividadeTermica',
         valor: 129,
         unidade: 'W/(m·K)'
       } 
-    }
+    ]
   }
 }
 

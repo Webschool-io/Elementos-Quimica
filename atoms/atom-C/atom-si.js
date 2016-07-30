@@ -72,9 +72,9 @@ module.exports = {
       }
     },
     quimicas: {
-      estadoOxidacao: require('property-estado-oxidacao-h'),
-      estruturaCristalina: require('property-estrutura-cristalina-h'),
-      eletronegatividadePauling: require('property-eletronegatividade-de-pauling-h'),
+      estadoOxidacao: require('property-estado-oxidacao-c'),
+      estruturaCristalina: require('property-estrutura-cristalina-c'),
+      eletronegatividadePauling: require('property-eletronegatividade-de-pauling-c'),
       raioCovalente: {   
         valor: 77, 
         unidade: require('unity-pm').unidade

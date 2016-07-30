@@ -1,6 +1,6 @@
 {
   "name": "atom-C",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Behold the Carbon!",
   "main": "atom-c.js",
   "dependencies": {
