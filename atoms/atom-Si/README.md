@@ -1,8 +1,18 @@
+# Atoms - Si
+
+Behold the Silicon!
+
+In this *atomic* module we have a lot of data about the Si.
+
+## Structure
+
+```js
+
 module.exports = { 
-  simbolo: 'C', 
+  simbolo: 'Si', 
   nome: {
-    'pt-br': 'Carbono',
-    'en': 'Carbon',
+    'pt-br': 'Silício',
+    'en': 'Silicon',
   },
   familia: [
     {
@@ -14,16 +24,16 @@ module.exports = {
       valor: '4A'
     }, 
     {
-      tipo: 'descritivo',
-      valor: 'Sem familia'
+      tipo: 'Descritivo',
+      valor: 'Sem Familia'
     }
   ],
-  periodo: 2, 
-  massaAtomica: 12.0107,
+  periodo: 3, 
+  massaAtomica: 28.0855,
   numero: {
-    eletrons: 6,
-    neutrons: 6,
-    protons: 6
+    eletrons: 14,
+    neutrons: 0,
+    protons: 14
   },
   distribuicaoEletronica: {
     k: [
@@ -39,13 +49,17 @@ module.exports = {
       },
       {
         subnivel: 'p',
-        eletrons: 2
+        eletrons: 6
       }
     ],
     m: [
       {
         subnivel: 's',
-        eletrons: 0
+        eletrons: 2
+      },
+      {
+        subnivel: 'p',
+        eletrons: 2
       }
     ],
     n: [
@@ -77,7 +91,7 @@ module.exports = {
     fisicas: [
       {   
         nome: 'Densidade',
-        valor: 0.2267,
+        valor: 2330, 
         unidade: 'kg/m3'
       },
       {   
@@ -86,43 +100,42 @@ module.exports = {
       },
       {   
         nome: 'raioAtomico',
-        valor: 70,
+        valor: 111,
       }
     ],
     quimicas: [ 
-      require('property-estado-oxidacao-h'),
-      require('property-estrutura-cristalina-h'),
+      require('property-estado-oxidacao-si'),
+      require('property-estrutura-cristalina-si'),
       require('property-eletronegatividade-de-pauling-h'),
       {   
         nome: 'raioCovalente',
-        valor: 77,
+        valor: 111,
         unidade: require('unity-pm').unidade
       },
       {   
         nome: 'raioVanderWaals',
-        valor: 170, 
+        valor: 210, 
         unidade: require('unity-pm').unidade
       },
       {   
         nome: 'entalpiadevaporizacao',
-        valor: 0.44936,
+        valor: 384.22,
         unidade: require('unity-kjXmol-1').unidade
       },
       {   
         nome: 'calorEspecífico',
-        valor: 710, 
+        valor: 700, 
         unidade: 'J/(kg·K)'
-      },
-      {   
-        nome: 'condutividadeEletrica',
-        valor: 0.061, 
-        unidade: 'S/m'
       },
       {
         nome: 'condutividadeTermica',
-        valor: 129,
+        valor: 148,
         unidade: 'W/(m·K)'
       } 
     ]
   }
 }
+
+```
+
+Autor: [gkal19](https://github.com/gkal19/)

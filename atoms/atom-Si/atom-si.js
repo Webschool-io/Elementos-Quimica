@@ -1,9 +1,9 @@
 module.exports = { 
   simbolo: 'C', 
-  nome: 'Carbon',
+  nome: 'Silicon',
   familia: [
     {
-      coluna: '16'
+      coluna: '14'
     }, 
     {
       grupo: '4A'
@@ -12,11 +12,11 @@ module.exports = {
       descritivo: 'No Family'
     }
   ], 
-  periodo: 2, 
+  periodo: 3, 
   numero: {
-    eletrons: 6,
-    neutrons: 6,
-    protons: 6
+    eletrons: 14,
+    neutrons: 0,
+    protons: 14
   },
   distribuicaoEletronica: {
     k: {
@@ -24,11 +24,11 @@ module.exports = {
     },
     l: {
       s: 2,
-      p: 2
+      p: 6
     },
     m: {
-      s: 0,
-      p: 0,
+      s: 2,
+      p: 2,
       d: 0
     },
     n: {
@@ -56,47 +56,43 @@ module.exports = {
   propriedades: {
     fisicas: {
       densidade: {
-        valor: 0.2267, 
+        valor: 2330, 
         unidade: 'kg/m3'
       },
       estadodaMateria: {   
         valor: 'Solid' 
       },
       raioAtomico: {
-        valor: 70, 
+        valor: 111, 
         unidade: 'pm'
       },
       massaAtomica: {
-        valor: 12.0107, 
+        valor: 28.0855, 
         unidade: 'u'
       }
     },
     quimicas: {
-      estadoOxidacao: require('property-estado-oxidacao-h'),
-      estruturaCristalina: require('property-estrutura-cristalina-h'),
+      estadoOxidacao: require('property-estado-oxidacao-si'),
+      estruturaCristalina: require('property-estrutura-cristalina-si'),
       eletronegatividadePauling: require('property-eletronegatividade-de-pauling-h'),
       raioCovalente: {   
-        valor: 77, 
+        valor: 111, 
         unidade: require('unity-pm').unidade
       },
       raioVanderWaals: {   
-        valor: 170, 
+        valor: 210, 
         unidade: require('unity-pm').unidade
       },
       entalpiadevaporizacao: {   
-        valor: 0.44936, 
+        valor: 384.22 , 
         unidade: require('unity-kjXmol-1').unidade
       },
       calorEspecífico: {   
-        valor: 710, 
+        valor: 700, 
         unidade: 'J/(kg·K)'
       },
-      condutividadeEletrica: {   
-        valor: 0.061, 
-        unidade: 'S/m'
-      },
       condutividadeTermica: {
-        valor: 129,
+        valor: 148,
         unidade: 'W/(m·K)'
       } 
     }
