@@ -6,7 +6,7 @@ Repositório com todos os elementos da Química e suas propriedades.
 
 ## Ideia
 
-Mostrar os elementos da Química de forma m ais simples e usável do que a Tabela Periódica.
+Mostrar os elementos da Química de forma mais simples e usável do que a Tabela Periódica.
 
 Nossa "tabela periódica" será, inicialmente, visualizada com os elementos separados em 3 categorias:
 
@@ -298,11 +298,11 @@ Essas são as propriedades dos **metais**:
 - Ferromagnetismo
 - Magnetismo
 - Paramagnetismo
-- momento magnético 
-- radiação eletromagnética
-- emissão espontânea 
+- Momento magnético 
+- Radiação eletromagnética
+- Emissão espontânea 
 - Ligantes
-- permeabilidade magnética
+- Permeabilidade magnética
 - Susceptibilidade magnética 
 - Campo magnético
 - Física do estado sólido
@@ -409,7 +409,7 @@ Pensamos em facilitar a identificação dos elementos além do nome da sua categ
 - Ácidos
 - Bases
 - Sais 
-- Oxidos
+- Óxidos
 
 ### Propriedades
 
@@ -419,12 +419,12 @@ Pensamos em facilitar a identificação dos elementos além do nome da sua categ
 - ESTADO DA COMPOSTO
 - FORMA IÔNICA
 - PROPRIEDADES FISICO-QUIMICAS:
-  + Afinidade (tanto pelos atomos quanto pelo tipo da molecula)
+  + Afinidade (tanto pelos atomos quanto pelo tipo da molécula)
   + Solubilidade (Kps)
   + Quantidade de materia (mol/L)
   + Geometria molecular
-  + Estado de oxidação do atomo presente na molecula
-  + Ponto de fusao
+  + Estado de oxidação do átomo presente na molécula
+  + Ponto de fusão
   + Ponto de ebulição
   + Valor da energia Livre de Gibs (deltah)
   + Valor da energia de entalpia
