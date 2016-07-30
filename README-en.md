@@ -1,91 +1,91 @@
-# Elementos da Química
+# Elements of Chemistry
 
-Repositório com todos os elementos da Química e suas propriedades.
+Repository with all the elements of chemistry and its properties.
 
-[Read in English](https://github.com/Webschool-io/Elementos-Quimica/blob/master/README-en.md)
+[Read in Portuguese](https://github.com/Webschool-io/Elementos-Quimica/blob/master/README.md)
 
-## Ideia
+## Idea
 
-Mostrar os elementos da Química de forma m ais simples e usável do que a Tabela Periódica.
+Show the elements of chemistry more simply and usable than the Periodic Table.
 
-Nossa "tabela periódica" será, inicialmente, visualizada com os elementos separados em 3 categorias:
+Our "periodic table" will be initially displayed with the separate elements into 3 categories:
 
-- Gasoso 💨
-- Líquido💧
-- Sólido 💎
-
-
-Vai dizer que não fica mais simples pensar assim?
-
-Nossa ideia é atualizar **e melhorar** a Tabela Periódica, pois não precisamos mais, necessariamente, utilizar ela como foi criada.
-
-> Por quê?
-
-Aí eu lhe pergunto:
-
-> Se você entrar em uma Tabela Periódica o que você fará? Não irá buscar alguma propriedade de algum elemento que você pode até não conhecer?
+- Gaseous 💨
+- Liquid💧
+- Sólid 💎
 
 
+It will say that is not easy to think so?
 
-Correto.
+Our idea is to update and **improve** the Periodic Table, as we no longer necessarily use it as it was created.
+
+> Why?
+
+So I ask you:
+
+> If you go into a periodic table what will you do? You will not get any property of any element that you might not even know?
 
 
 
-> Agora imagine um Sistema Web onde você pudesse ter todas as informações de um elemento tanto no navegador, como no celular, como no sistema operacional.
-
-> E que TODA informação fosse atualizada e criada pela comunidade de químicos?
-
-> Não seria muito melhor?
+Correct.
 
 
 
-É...
+> Now imagine a Web system where you could have all the information of an element both in the browser, as in the cell, as the operating system.
+
+> And that ALL information be updated and created by the chemical community?
+
+> Would not it be better?
+
+
+
+Yeah...
 
 
 
 
-> E se você além de ter todas as informações dos elementos e suas moléculas ainda pudesse ter uma calculadora tipo HP, porém específica para Química?
+> And if you in addition to all the information of the elements and their molecules could still have an HP calculator type, but specific to chemistry?
 
-> Quanto você pagaria para ter TODA essa informação??
-
-
-Pois eu mesmo lhe responderei:
+> How much would you pay to have ALL this information ??
 
 
-> Nada.
+For I myself shall answer you:
 
 
-## Separação dos Elementos
-
-Para facilitar o entendimento dos elementos da Química separamos os elementos, inicialmente, em 3 grandes categorias, baseadas em seu estado da matéria:
-
-- Gasoso 💨
-- Líquido💧
-- Sólido 💎
+> Nothing.
 
 
-Logo após temos a seguinte separação:
+## Separation of the Elements
 
-- Gasoso 💨
-    + Nobres
-    + Comuns
-- Líquido 💧
-    + Ametal
+To facilitate the understanding of the chemistry of the elements separated the elements initially in three broad categories, based on their state of matter:
+
+- Gaseous 💨
+- Liquid💧
+- Sólid 💎
+
+
+Soon after we have the following split:
+
+- Gaseous 💨
+    + Noble
+    + Common
+- Liquid💧
     + Metal
-- Sólido 💎
-    + Ametal
+    + Non-Metal
+- Sólid 💎
     + Metal
+    + Non-Metal
 
 
-## Padrão
+## Pattern
 
-Precisamos criar um padrão, *work in progress*, para que futuramente possa ser utilizada em qualquer linguagem.
+We need to create a pattern, *work in progress*, so that it can eventually be used in any language.
 
-Por isso eu e a [Franciele](https://github.com/fpchemical/) pensamos em colocar boa parte das propriedades dos elementos no JSON.
+So I and [Franciele](https://github.com/fpchemical/) We think about putting much of the properties of elements in JSON.
 
-### Elemento
+### Element
 
-Vejamos esse exemplo do Hidrogênio:
+Take the example of hydrogen:
 
 ```js
 module.exports = { 
@@ -225,7 +225,7 @@ module.exports = {
 }
 ```
 
-Aposto que percebeu essa parte diferente:
+I bet you saw this different part:
 
 
 ```js
@@ -235,15 +235,15 @@ estruturaCristalina: require('property-estrutura-cristalina-h'),
 eletronegatividadePauling: require('property-eletronegatividade-de-pauling-h'),
 ```
 
-Isso é porque já comecei a modularizar cada PROPRIEDADE para criar um módulo que será um GERADOR de propriedades para facilitar a criação dos outros elementos.
+That is why I have started to modularize each PROPERTY to create a module that will be a property GENERATOR to facilitate the creation of other elements.
 
-### Propriedades
+### Properties
 
-Sim iremos ATOMIZAR cada propriedade para facilitar o reuso.
+Yes, we ATOMIZE each property to facilitate reuse.
 
-**SEMPRE PRECISA TER `valor`!** Pois é uma propriedade, isso é o **mínimo**.
+**ALWAYS NEED TO HAVE `value`!** It is a property, this is the **minimum**.
 
-O padrão, por hora, é:
+The default per hour is:
 
 ```js
 module.exports = {    
@@ -253,7 +253,7 @@ module.exports = {
 }
 ```
 
-Vejamos alguns exemplos:
+Here are some examples:
 
 ```js
 // H-eletronegatividadePauling
@@ -264,7 +264,7 @@ module.exports = {
 }
 ```
 
-*ps: Sem descrição.*
+*ps: Without description.*
 
 ```js
 // H-estadoOxidacao
@@ -275,7 +275,7 @@ module.exports = {
 }
 ```
 
-*ps: Sem descrição e unidade.*
+*ps: SWithout description and unity.*
 
 ```js
 module.exports = {   
@@ -285,40 +285,40 @@ module.exports = {
 }
 ```
 
-*ps: Sem descrição porém importando a **unidade**.*
+*ps: No description but regardless of the  **Unity**.*
 
-#### Metais
+#### Metals
 
-Essas são as propriedades dos **metais**:
+These are the properties of **Metals**:
 
-- Condutibilidade
-- Ductibilidade
-- Maleabilidade
-- Eletromagnetismo
-- Ferromagnetismo
-- Magnetismo
-- Paramagnetismo
-- momento magnético 
-- radiação eletromagnética
-- emissão espontânea 
-- Ligantes
-- permeabilidade magnética
-- Susceptibilidade magnética 
-- Campo magnético
-- Física do estado sólido
-- Função de onda
-- Banda de valência 
-- Banda de condução
-- Entropia negativa
-- Ondas eletromagnéticas 
-- Carga Nuclear Efetiva
-- Lei da conservação da carga 
+- Conductivity
+- Ductility
+- Malleability
+- Electromagnetism
+- Ferromagnetism
+- Magnetism
+- Paramagnetism
+- Magnetic moment
+- electromagnetic radiation
+- Spontaneous emission
+- Ligands
+- Magnetic permeability
+- Magnetic Susceptibility
+- Magnetic field
+- Solid State Physics
+- Wave function
+- Valence band
+- Driving Band
+- Negative Entropy
+- Electromagnetic waves
+- Load Effective Nuclear
+- Load Conservation Law
 
-### Unidades
+### Units
 
-Seguindo a lógica também modularizamos as **unidades** pois poderão ser reusadas.
+Following the logic will also modularize the **units** as they may be reused.
 
-O padrão é:
+The default is:
 
 ```js
 module.exports = {
@@ -329,7 +329,7 @@ module.exports = {
 }
 ```
 
-Exemplos:
+Examples:
 
 ```js
 // K
@@ -337,7 +337,7 @@ module.exports = {
   unidade: 'K',
   nome: 'Kelvin',
   validate: (value) => true,
-  descricao: 'Mede a temperatura absoluta'
+  descricao: 'Measures absolute temperature'
 }
 ```
 
@@ -347,7 +347,7 @@ module.exports = {
   unidade: 'a',
   nome: 'anos',
   validate: (value) => (value > 0),
-  descricao: 'Picometro é bem pequeno'
+  descricao: 'Picómeter is very small'
 }
 ```
 
@@ -357,7 +357,7 @@ module.exports = {
   unidade: 'Pa',
   nome: 'Pascal',
   validate: (value) => true,
-  descricao: 'Mede a pressão'
+  descricao: 'Measures pressure'
 }
 ```
 
@@ -366,26 +366,26 @@ module.exports = {
 module.exports = {
   unidade: 'pm',
   nome: 'picômetro',
-  valor: Math.pow(10, -6), // relativo ao metro
+  valor: Math.pow(10, -6), // for the metro
   validate: (value) => !isNaN(value),
-  descricao: 'Picometro é bem pequeno'
+  descricao: 'Picómeter is very small'
 }
 ```
 
 ## API
 
-Obviamente teremos uma API para fornecer TODA a informação sobre os elementos e moléculas da Química.
+Obviously we will have an API to provide ALL information about the elements and molecules of chemistry.
 
-Pensamos em facilitar a identificação dos elementos além do nome da sua categoria e tipo, trocarmos por **emojis** já existentes em qualquer celular.
+Thought to facilitate the identification of elements in addition to the name of their category and type, change for existing **emoji** in any cell.
 
-**Gasoso**: 💨
+**Geseous**: 💨
 - /api/atoms/gaseous
 - /api/atoms/💨
 - /api/👤/💨
 - /api/molecules/💨
 - /api/👥/💨
 
-**Líquido**: 💧
+**Liquid**: 💧
 - /api/atoms/liquid
 - /api/atoms/💧
 - /api/👤/💧
@@ -393,7 +393,7 @@ Pensamos em facilitar a identificação dos elementos além do nome da sua categ
 - /api/👥/💧
 
 
-**Sólido**: 💎
+**Solid**: 💎
 - /api/atoms/solids
 - /api/atoms/💎
 - /api/👤/💎
@@ -402,29 +402,29 @@ Pensamos em facilitar a identificação dos elementos além do nome da sua categ
 
 
 
-## Moléculas
+## Molecules
 
-### Tipos
+### Types
 
-- Ácidos
+- Acids
 - Bases
-- Sais 
-- Oxidos
+- Sais
+- Oxides
 
-### Propriedades
+### Properties
 
 
-- NOME IUPAC
-- NOME USUAL
-- ESTADO DA COMPOSTO
-- FORMA IÔNICA
-- PROPRIEDADES FISICO-QUIMICAS:
-  + Afinidade (tanto pelos atomos quanto pelo tipo da molecula)
-  + Solubilidade (Kps)
-  + Quantidade de materia (mol/L)
-  + Geometria molecular
-  + Estado de oxidação do atomo presente na molecula
-  + Ponto de fusao
-  + Ponto de ebulição
-  + Valor da energia Livre de Gibs (deltah)
-  + Valor da energia de entalpia
+- NAME IUPAC
+- USUAL NAME
+- STATE OF THE COMPOUND
+- FASHION IONIC
+- PHYSICAL AND CHEMICAL PROPERTIES:
+    + Affinity (both by atoms as the type of molecule)
+    + Solubility (Ksp)
+    + Material quantity (mol/L)
+    + Molecular Geometry
+    + State of this atom oxidation in the molecule
+    + Melting point
+    + Boiling point
+    + Free energy value of Gibs (Deltah)
+    + Value of energy enthalpy
