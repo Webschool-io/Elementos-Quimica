@@ -34,24 +34,24 @@ Logo após temos a seguinte separação:
 
 Obviamente teremos uma API para fornecer TODA a informação sobre os elementos e moléculas da Química.
 
-Gasoso: 💨
-/api/atoms/gaseous
-/api/atoms/💨
-/api/👤/💨
-/api/molecules/💨
-/api/👥/💨
+**Gasoso**: 💨
+- /api/atoms/gaseous
+- /api/atoms/💨
+- /api/👤/💨
+- /api/molecules/💨
+- /api/👥/💨
 
-Líquido: 💧
-/api/atoms/liquid
-/api/atoms/💧
-/api/👤/💧
-/api/molecules/💧
-/api/👥/💧
+**Líquido**: 💧
+- /api/atoms/liquid
+- /api/atoms/💧
+- /api/👤/💧
+- /api/molecules/💧
+- /api/👥/💧
 
 
-Sólido: 💎
-/api/atoms/solids
-/api/atoms/💎
-/api/👤/💎
-/api/molecules/💎
-/api/👥/💎
+**Sólido**: 💎
+- /api/atoms/solids
+- /api/atoms/💎
+- /api/👤/💎
+- /api/molecules/💎
+- /api/👥/💎
