@@ -1,0 +1,20 @@
+{
+  "name": "atom-Fe",
+  "version": "1.0.0",
+  "description": "Behold the Iron!",
+  "main": "atom-fe.js",
+  "dependencies": {
+    "property-estrutura-cristalina-fe": "^0.0.1",
+    "property-eletronegatividade-de-pauling-fe": "^0.0.2",
+    "property-estado-oxidacao-fe": "^0.0.1",
+    "unity-kjXmol-1": "^1.0.2",
+    "unity-pm": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
