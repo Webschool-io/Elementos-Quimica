@@ -240,6 +240,33 @@ module.exports = {
 
 *ps: Sem descrição porém importando a **unidade**.*
 
+#### Metais
+
+Essas são as propriedades dos **metais**:
+
+- Condutibilidade
+- Ductibilidade
+- Maleabilidade
+- Eletromagnetismo
+- Ferromagnetismo
+- Magnetismo
+- Paramagnetismo
+- momento magnético 
+- radiação eletromagnética
+- emissão espontânea 
+- Ligantes.
+- permeabilidade magnética
+- Susceptibilidade magnética 
+- Campo magnético
+- Física do estado sólido
+- Função de onda
+- Banda de valência 
+- Banda de condução
+- Entropia negativa
+- Ondas eletromagnéticas 
+- Carga Nuclear Efetiva
+- Lei da conservação da carga 
+
 ### Unidades
 
 Seguindo a lógica também modularizamos as **unidades** pois poderão ser reusadas.
