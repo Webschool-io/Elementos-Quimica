@@ -215,7 +215,7 @@ module.exports = {
 }
 ```
 
-*ps: Ainda não tem dscrição.*
+*ps: Ainda não tem descrição.*
 
 ```js
 // H-estadoOxidacao
