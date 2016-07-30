@@ -192,6 +192,39 @@ Isso é porque já comecei a modularizar cada PROPRIEDADE para criar um módulo 
 
 ### Propriedades
 
+Sim iremos ATOMIZAR cada propriedade para facilitar o reuso.
+
+Vejamos alguns exemplos:
+
+```js
+// H-eletronegatividadePauling
+module.exports = {    
+  valor: 2.2, 
+  unidade: 'eV',
+  descricao: null
+}
+```
+
+*ps: Ainda não tem dscrição.*
+
+```js
+// H-estadoOxidacao
+module.exports = {   
+  valor: '1+',
+  unidade: null,
+  descricao: null
+}
+```
+
+```js
+// H-estruturaCristalina
+module.exports = {   
+  valor: 'hexagonal', 
+  unidade: null,
+  descricao: null
+}
+```
+
 ### Unidades
 
 ## API
