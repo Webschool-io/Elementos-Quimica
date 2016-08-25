@@ -1,0 +1,21 @@
+{
+  "name": "atom-Na",
+  "version": "1.0.0",
+  "description": "Behold the Sodium!",
+  "main": "atom-na.js",
+  "dependencies": {
+    "property-eletronegatividade-de-pauling-na": "^1.0.0",
+    "property-estado-oxidacao-na": "^1.0.0",
+    "property-estrutura-cristalina-na": "^1.0.0",
+    "unity-k": "^1.0.0",
+    "unity-kjXmol-1": "^1.0.2",
+    "unity-pm": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
