@@ -1,0 +1,21 @@
+{
+  "name": "atom-K",
+  "version": "1.0.0",
+  "description": "Behold the Potassium!",
+  "main": "atom-k.js",
+  "dependencies": {
+    "property-eletronegatividade-de-pauling-k": "^1.0.0",
+    "property-estado-oxidacao-k": "^1.0.0",
+    "property-estrutura-cristalina-k": "^1.0.0",
+    "unity-pm": "^1.0.2",
+    "unity-k": "^1.0.0",
+    "unity-kjXmol-1": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "atom-Li",
+  "version": "1.0.0",
+  "description": "Behold the Lithium!",
+  "main": "atom-li.js",
+  "dependencies": {
+    "property-estado-oxidacao-li": "^1.0.0",
+    "property-eletronegatividade-de-pauling-li": "^1.0.0",
+    "property-estrutura-cristalina-li": "^1.0.0",
+    "unity-kjXmol-1": "^1.0.2",
+    "unity-k": "^1.0.0",
+    "unity-pm": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
