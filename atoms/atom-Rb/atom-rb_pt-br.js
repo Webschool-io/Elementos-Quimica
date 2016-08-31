@@ -18,12 +18,12 @@ module.exports = {
       valor: 'Metal Alcalino'
     }
   ],
-  periodo: 4, 
-  massaAtomica: 39.0983,
+  periodo: 5, 
+  massaAtomica: 85.4678,
   numero: {
-    eletrons: 19,
+    eletrons: 37,
     neutrons: 0,
-    protons: 19
+    protons: 37
   },
   distribuicaoEletronica: {
     k: [
@@ -39,7 +39,7 @@ module.exports = {
       },
       {
         subnivel: 'p',
-        eletrons: 2
+        eletrons: 6
       }
     ],
     m: [
@@ -53,23 +53,23 @@ module.exports = {
       },
       {
         subnivel: 'd',
-        eletrons: 0
+        eletrons: 10
       }
     ],
     n: [
       {
         subnivel: 's',
-        eletrons: 1
+        eletrons: 2
       },
       {
         subnivel: 'p',
-        eletrons: 0
+        eletrons: 6
       }
     ],
     o: [
       {
         subnivel: 's',
-        eletrons: 0
+        eletrons: 1
       }
     ],
     p: [
@@ -89,7 +89,7 @@ module.exports = {
     fisicas: [
       {   
         nome: 'Densidade',
-        valor: 856, 
+        valor: 1532, 
         unidade: 'kg/m3'
       },
       {   
@@ -98,36 +98,36 @@ module.exports = {
       },
       {   
         nome: 'raioAtomico',
-        valor: 243,
+        valor: 248,
       }
     ],
     quimicas: [ 
       require('property-estado-oxidacao-k'),
-      require('property-estrutura-cristalina-k'),
-      require('property-eletronegatividade-de-pauling-k'),
+      require('property-estrutura-cristalina-rb'),
+      require('property-eletronegatividade-de-pauling-rb'),
       {   
         nome: 'raioCovalente',
-        valor: 196,
+        valor: 211,
         unidade: require('unity-pm').unidade
       },
       {   
         nome: 'raioVanderWaals',
-        valor: 275, 
+        valor: 2.44, 
         unidade: require('unity-pm').unidade
       },
       {   
         nome: 'entalpiadevaporizacao',
-        valor: 79.87,
+        valor: 72.216,
         unidade: require('unity-kjXmol-1').unidade
       },
       {   
         nome: 'calorEspecífico',
-        valor: 3582, 
-        unidade: 'J/(kg·K)'
+        valor: 364, 
+        unidade: 'J/(kg·C)'
       },
       {
         nome: 'condutividadeTermica',
-        valor: 102.4,
+        valor: 58.2,
         unidade: 'W/(m·K)'
       } 
     ]

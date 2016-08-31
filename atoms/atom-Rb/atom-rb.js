@@ -13,11 +13,11 @@ module.exports = {
       descritiva: 'Metal Alcalino'
     }
   ],
-  periodo: 4,
+  periodo: 5,
   numero: {
-    eletrons: 19,
+    eletrons: 37,
     neutrons: 0,
-    protons: 19
+    protons: 37
   },
   distribuicaoEletronica: {
     k: {
@@ -27,13 +27,13 @@ module.exports = {
       s: 2, p: 6
     },
     m: {
-      s: 2, p: 6, d: 0
+      s: 2, p: 6, d: 10
     },
     n: {
-      s: 1, p: 0, d: 0, f: 0
+      s: 2, p: 6, d: 0, f: 0
     },
     o: {
-      s: 0, p: 0, d: 0, f: 0
+      s: 1, p: 0, d: 0, f: 0
     },
     p: {
       s: 0, p: 0, d: 0
@@ -45,61 +45,61 @@ module.exports = {
   propriedades: {
     fisicas: {
       densidade: {
-        valor: 856,
+        valor: 1532,
         unidade: 'kg/m3'
       },
       estadodaMateria: {
         valor: 'gasoso'
       },
       raioAtomico: {
-        valor: 243,
+        valor: 248,
         unidade: 'pm'
       },
       massaAtomica: {
-        valor: 39.0983,
+        valor: 85.4678,
         unidade: 'u'
       }
     },
     quimicas: {
       estadoOxidacao: require('property-estado-oxidacao-k'),
-      estruturaCristalina: require('property-estrutura-cristalina-k'),
-      eletronegatividadePauling: require('property-eletronegatividade-de-pauling-k'),
+      estruturaCristalina: require('property-estrutura-cristalina-rb'),
+      eletronegatividadePauling: require('property-eletronegatividade-de-pauling-rb'),
       pontoFusao: {
-        valor: 336.53,
+        valor: 312.46,
         unidade: require('unity-k').unidade
       },
       pontoEbulicao: {
-        valor: 1032,
+        valor: 961,
         unidade: require('unity-k').unidade
       },
       raioCovalente: {
-        valor: 196,
+        valor: 211,
         unidade: require('unity-pm').unidade
       },
       raioVanderWaals: {
-        valor: 275,
+        valor: 2.44,
         unidade: require('unity-pm').unidade
       },
       entalpiadefusao: {
-        valor: 2.334,
+        valor: 2.191,
         unidade: require('unity-kjXmol-1').unidade
       },
       entalpiadevaporizacao: {
-        valor: 79.87,
+        valor: 72.216,
         unidade: require('unity-kjXmol-1').unidade
       },
       pressaodeVapor: {
         pressao: {
-          valor: '1.06x10',
+          valor: 434,
           unidade: require('unity-pa').unidade,
         }
       },
       calorEspecífico: {
-        valor: 336.5,
+        valor: 364,
         unidade: 'J/(kg·K)'
       },
       condutividadeTermica: {
-        valor: 102.4,
+        valor: 58.2,
         unidade: 'W/(m·K)'
       }
     }

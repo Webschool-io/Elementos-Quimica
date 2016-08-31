@@ -1,15 +1,16 @@
 {
-  "name": "atom-K",
-  "version": "1.0.0",
-  "description": "Behold the Potassium!",
-  "main": "atom-k.js",
+  "name": "atom-Rb",
+  "version": "1.0.1",
+  "description": "Behold the Rubidium!",
+  "main": "atom-rb.js",
   "dependencies": {
     "property-eletronegatividade-de-pauling-k": "^1.0.0",
-    "property-estado-oxidacao-k": "^1.0.0",
     "property-estrutura-cristalina-k": "^1.0.0",
-    "unity-pm": "^1.0.2",
+    "property-estrutura-cristalina-rb": "^1.0.0",
     "unity-k": "^1.0.0",
-    "unity-kjXmol-1": "^1.0.2"
+    "property-estado-oxidacao-k": "^1.0.0",
+    "property-eletronegatividade-de-pauling-rb": "^1.0.0",
+    "unity-pa": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
